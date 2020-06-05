@@ -22,8 +22,8 @@ i=7
 while(j<leng):
     while(i>-1):
         bi[j][i]=a[j]%2
-        a[j]=(a[j]-bi[j][i])//2  #comments in python are created using hashtags
-        i-=1  #this segment is for converting the ascii value of letters into binary
+        a[j]=(a[j]-bi[j][i])//2  
+        i-=1  #converting the ascii value of letters into binary
     j+=1
     i=7
 print(bi)#binary
